@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura AI — Next-Gen Automation Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="preloader" id="preloader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <div class="custom-cursor" id="customCursor"></div>
+
+    <div class="particle-container" id="particleContainer"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                Aura<span class="gradient-text">AI</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#stats" class="nav-link">Stats</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="#cta" class="btn btn-primary btn-sm btn-ripple">Get Started</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section" id="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge fade-in"><span>New</span> Aura 2.0 Engine is live</div>
+                <h1 class="hero-title fade-in">
+                    Automate Your Workflow With <span class="gradient-text dynamic-txt">Intelligence</span>
+                </h1>
+                <p class="hero-subtitle fade-in">
+                    Empower your team with next-generation AI workflows. Scale operations, optimize performance, and eliminate modern technical bottlenecks instantly.
+                </p>
+                <div class="hero-btns fade-in">
+                    <a href="#features" class="btn btn-primary btn-ripple">Start Free Trial <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#about" class="btn btn-secondary btn-ripple">Watch Demo</a>
+                </div>
+            </div>
+            <div class="hero-dashboard-mockup fade-in interactive-card">
+                <div class="mockup-header">
+                    <div class="mockup-dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                    <div class="mockup-search">aura-platform.io/dashboard</div>
+                </div>
+                <div class="mockup-body">
+                    <div class="mockup-sidebar"></div>
+                    <div class="mockup-content-grid">
+                        <div class="mockup-card widget-1"></div>
+                        <div class="mockup-card widget-2"></div>
+                        <div class="mockup-card widget-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section reveal" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Engineered For Fast-Moving Teams</h2>
+                <p class="section-subtitle">Everything you need to ship, automate, and analyze software infrastructure under a single pane of glass.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon glow-purple"><i class="fa-solid fa-bolt"></i></div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-text">Sub-millisecond processing pipelines ensuring your user journeys run synchronously without infrastructure overhead.</p>
+                </div>
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon glow-blue"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 class="feature-title">Enterprise Security</h3>
+                    <p class="feature-text">End-to-end multi-tenant encryption with automated compliance standards engineered directly into your architecture core.</p>
+                </div>
+                <div class="feature-card interactive-card">
+                    <div class="feature-icon glow-green"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h3 class="feature-title">Advanced Analytics</h3>
+                    <p class="feature-text">Deep-dive predictive analytics reporting event patterns, performance trends, and usage metrics instantaneously.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section reveal" id="about">
+        <div class="container about-container">
+            <div class="about-img-wrapper parallax-element" data-speed="0.05">
+                <div class="about-glow"></div>
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Abstract 3D digital art mesh representing cloud intelligence" class="about-image">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Redefining Digital Workspaces</h2>
+                <p class="section-subtitle">Aura AI breaks down standard organizational silos by building algorithmic relationships across your entire tech ecosystem.</p>
+                <p class="about-text">
+                    We believe the future of productivity isn't built around individual micro-apps. It's built on unifying logic systems that dynamically allocate workflows based on incoming project metadata.
+                </p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-circle-check text-purple"></i> 99.99% Guaranteed Infrastructure Uptime</li>
+                    <li><i class="fa-solid fa-circle-check text-purple"></i> Over 400+ Modular Ecosystem Integrations</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section reveal" id="stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <div class="stat-number" data-target="250">0</div>
+                <div class="stat-label">Enterprise Partners</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="99">0</div>
+                <div class="stat-label">Uptime Percentage</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="15">0</div>
+                <div class="stat-label">Global Operations</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="40">0</div>
+                <div class="stat-label">Developer API Keys</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section reveal" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted By Industry Architects</h2>
+                <p class="section-subtitle">Read how forward-thinking engineers and technical leaders run core networks using Aura.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card interactive-card">
+                    <p class="testimonial-quote">"Migrating our cloud pipelines to Aura completely eliminated our systemic downtime. Our developer deployments became 4x faster within weeks."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80" alt="Sarah Jenkins">
+                        </div>
+                        <div class="user-info">
+                            <h4 class="user-name">Sarah Jenkins</h4>
+                            <p class="user-role">VP of Engineering, CloudCore</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card interactive-card">
+                    <p class="testimonial-quote">"The system interface feels incredibly polished. Glassmorphism UI coupled with near zero-latency metric logs makes troubleshooting a visual luxury."</p>
+                    <div class="testimonial-user">
+                        <div class="user-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Marcus Chen">
+                        </div>
+                        <div class="user-info">
+                            <h4 class="user-name">Marcus Chen</h4>
+                            <p class="user-role">Lead Devops Architect, Synthetix</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section reveal" id="faq">
+        <div class="container faq-container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Clear, technical answers to common architecture and subscription queries.</p>
+            </div>
+            <div class="accordion-wrapper">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How does Aura integrate into existing legacy systems?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <p class="accordion-text">Aura provides lightweight SDK containers and natively structured webhooks that layer directly on top of legacy frameworks. You can sync databases and mainframes safely via SSL/TLS tunnels within minutes without rewriting core code architectures.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Is there a self-hosted on-premise operational model?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <p class="accordion-text">Yes, Enterprise subscription tier accounts have exclusive provisioning access to our official Docker files and Kubernetes Helm charts for custom, air-gapped on-premise localized rollouts.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>What security certifications does the AI maintain?</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="accordion-body">
+                        <p class="accordion-text">Aura platform instances undergo regular third-party external penetration security audits. We maintain full native structural compliance flags for SOC2 Type II, ISO/IEC 27001, and GDPR data privacy standards globally.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section reveal" id="cta">
+        <div class="container cta-container interactive-card">
+            <div class="cta-glow"></div>
+            <h2 class="cta-title">Upgrade Your Tech Stack Capacity Today</h2>
+            <p class="cta-text">Join thousands of software engineers configuring hyper-automated node networks safely and efficiently.</p>
+            <a href="#" class="btn btn-primary btn-ripple">Deploy Instantly</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="nav-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
+                    Aura<span class="gradient-text">AI</span>
+                </a>
+                <p class="footer-desc">Building the operational intelligence layers for modern distributed web systems globally.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links-col">
+                <h4>Platform</h4>
+                <a href="#features">Features</a>
+                <a href="#stats">Performance</a>
+                <a href="#">Security</a>
+            </div>
+            <div class="footer-links-col">
+                <h4>Company</h4>
+                <a href="#about">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Press Kit</a>
+            </div>
+            <div class="footer-links-col">
+                <h4>Resources</h4>
+                <a href="#faq">Documentation</a>
+                <a href="#">API Status</a>
+                <a href="#">System Integrity</a>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Aura AI Technologies Inc. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Framework</a>
+                <a href="#">Terms of Infrastructure Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
